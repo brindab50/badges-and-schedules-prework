@@ -26,7 +26,4 @@ def printer(attendees)
    badge_maker(name)
    assign_rooms.each do |name, index|
      
-     
-     
-   
 end

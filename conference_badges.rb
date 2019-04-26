@@ -15,12 +15,13 @@ end
 def assign_rooms(array)
   rooms = []
   array.each_with_index do |name, index|
- # binding.pry
+ # 
   rooms.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
   end 
   return rooms
 end 
 def printer(attendees)
+  
  badges.each do |name, index|
    badge_maker(name)
    assign_rooms.each do |name, index|

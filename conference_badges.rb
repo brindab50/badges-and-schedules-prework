@@ -21,7 +21,6 @@ def assign_rooms(array)
   return rooms
 end 
 def printer(attendees)
-  binding.pry
   batch_badge_creator(attendees).each do |name| 
     
   end

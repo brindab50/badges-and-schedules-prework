@@ -22,8 +22,6 @@ def assign_rooms(array)
 end 
 def printer(attendees)
   binding.pry
-# # badges.each do |name, index|
-#   badge_maker(name)
-#   assign_rooms.each do  |name, index|
-# #     
+  batch_badge_creator(attendees).each do |name| 
+  end
 end

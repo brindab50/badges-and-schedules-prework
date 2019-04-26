@@ -27,5 +27,5 @@ def printer(attendees)
   end
   binding.pry 
   assign_rooms(attendees).each do |rooms|
-    puts room
+    puts rooms
 end

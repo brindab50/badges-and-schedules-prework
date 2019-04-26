@@ -26,4 +26,5 @@ def printer(attendees)
    puts name 
   end
   
+  assign_rooms(attendees).
 end

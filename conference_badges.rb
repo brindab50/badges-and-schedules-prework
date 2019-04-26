@@ -25,7 +25,7 @@ def printer(attendees)
    
    puts name 
   end
-  binding.pry 
+  
   assign_rooms(attendees).each do |rooms|
     puts rooms
 end

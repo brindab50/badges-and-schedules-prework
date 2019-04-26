@@ -26,5 +26,5 @@ def printer(attendees)
    puts name 
   end
   binding.pry 
-  assign_rooms(attendees).
+  assign_rooms(attendees)
 end

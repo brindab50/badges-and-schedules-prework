@@ -21,6 +21,10 @@ def assign_rooms(array)
   return rooms
 end 
 def printer(attendees)
- badges.each do |name|
+ badges.each do |name, index|
+   badge_maker(name)
+   assign_rooms.each do |name, index|
+     
+     
    
 end
